@@ -32,16 +32,16 @@ The following is a set of guidelines for contributing to Kamehameha Studios, whi
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [Atom Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [atom@github.com](mailto:atom@github.com).
+This project and everyone participating in it is governed by the [Studios' Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to the orginization.
 
 ## I don't want to read this whole thing I just have a question!!!
 
-> **Note:** [Please don't file an issue to ask a question.](https://blog.atom.io/2016/04/19/managing-the-deluge-of-atom-issues.html) You'll get faster results by using the resources below.
+> **Note:** Please don't file an issue to ask a question. You'll get faster results by using the resources below.
 
 We have an official message board with a detailed FAQ and where the community chimes in with helpful advice if you have questions.
 
-* [Github Discussions, the official Atom](https://github.com/atom/atom/discussions)
-* [Atom FAQ](https://github.com/atom/atom/discussions)
+* [Github Discussions](https://github.com/kamehameha-studios/discussions)
+* [Kamehameha FAQ](https://github.com/kamehameha-studios/discussions)
 
 ## What should I know before I get started?
 
