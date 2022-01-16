@@ -8,7 +8,13 @@
     <style>
       .bruh {
         color: red;
+      }
+      .position-a{
         text-align: center;
+      }
+      .man {
+        background: green;
+      }
     </style>
     <script>
       function WriteCookie() {
@@ -17,15 +23,27 @@
         document.cookie = "domain=" + "goku.github.io";
         document.cookie = "path=" + "/;";
         document.cookie = cookievalue + "=" + "none";
-        alert("You are logged in as a Guest. Plese Log in or Sign up to view you things.");
+        var alert = function() {
+          alert("You are logged in as a Guest. Plese Log in or Sign up to view you things.");
+        }
     </script>
   </head>
-  <body lang="en" onload="WriteCookie">
+  <body lang="en" onload="WriteCookie()""alert()">
     <div>
       <div>
-        <h1 class="bruh">
+        <h1 class="bruh position-a">
           WELCOME TO KAMEHAMEHA STUDIOS!!!
         </h1>
+      </div>
+      <div>
+        <h3 class="man">
+          <a href="https://kamehameha-studios.github.io/login" target="">
+            login
+          </a>
+          <a>
+            help
+          </a>
+        </h3>
       </div>
     </div>
     <script>
