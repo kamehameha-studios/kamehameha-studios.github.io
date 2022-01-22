@@ -26,12 +26,13 @@
         document.cookie = "domain=" + "goku.github.io";
         document.cookie = "path=" + "/;";
         document.cookie = cookievalue + "=" + "none";
-        funtion var alert() {
-          alert("You are logged in as a Guest. Plese Log in or Sign up to view you things.");
+      }
+        var alert = function() {
+          alert("ゲストとしてログインしています。ログインまたはサインアップして、内容を確認してください。");
         }
     </script>
   </head>
-  <body lang="jap" onload="WriteCookie()" "alert()">
+  <body lang="jap" onload="WriteCookie(); var alert = function(){}">
     <div>
       <div>
         <h1 class="bruh position-a">

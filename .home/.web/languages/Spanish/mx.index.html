@@ -26,12 +26,13 @@
         document.cookie = "domain=" + "goku.github.io";
         document.cookie = "path=" + "/;";
         document.cookie = cookievalue + "=" + "none";
-        funtion var alert() {
+      }
+        var alert = function() {
           alert("Ha iniciado sesión como invitado. Inicie sesión o regístrese para ver sus cosas.");
         }
     </script>
   </head>
-  <body lang="mx" onload="WriteCookie()" "alert()">
+  <body lang="en" onload="WriteCookie(); alert = function(){}">
     <div>
       <div>
         <h1 class="bruh position-a">
@@ -56,3 +57,4 @@
   </body>
 </html>
 </DOCTYPE>
+
