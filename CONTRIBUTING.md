@@ -10,8 +10,7 @@ The following is a set of guidelines for contributing to Kamehameha Studios, whi
 
 [I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
 
-[What should I know before I get started?](#what-should-i-know-before-i-get-started)
-  * [The Studios' Design Decisions](#design-decisions)
+
 
 [How Can I Contribute?](#how-can-i-contribute)
   * [Reporting Bugs](#reporting-bugs)
@@ -38,11 +37,6 @@ We have an official message board with a detailed FAQ and where the community ch
 * [Github Discussions](https://github.com/kamehameha-studios/kamehameha-studios.github.io/discussions)
 * [Kamehameha FAQ](https://github.com/kamehameha-studios/kamehameha-studios.github.io/discussions)
 
-## What should I know before I get started?
-
-### Design Decisions
-
-When we make a significant decision in how we maintain the project and what we can or cannot support, we will document it in the [kamehameha-studios/design-decisions repository](https://github.com/kamehameha-studios/design-decisions). If you have a question around how we do things, check to see if it is documented there. If it is *not* documented there, please open a new topic on [Github Discussions](https://github.com/kamehameha-studios/kamehameha-studios.github.io/discussions) and ask your question.
 
 ## How Can I Contribute?
 
