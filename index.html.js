@@ -5,6 +5,6 @@ function WriteCookie() {
   document.cookie = "path=" + "/;";
   document.cookie = cookievalue + "=" + "none";
 }
-var alert = function() {
+function alert() {
   alert("You are logged in as a Guest. Plese Log in or Sign up to view you things.");
 }

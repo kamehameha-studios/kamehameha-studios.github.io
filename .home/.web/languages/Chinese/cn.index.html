@@ -27,12 +27,12 @@
         document.cookie = "path=" + "/;";
         document.cookie = cookievalue + "=" + "none";
       }
-      var alert = function() {
+      function alert () {
         alert("您以訪客身份登錄。請登錄或註冊以查看您的內容。");
       }
     </script>
   </head>
-  <body lang="en" onload="WriteCookie(); alert = function(){}">
+  <body lang="en" onload="WriteCookie(); function alert()">
     <div>
       <div>
         <h1 class="bruh position-a">
