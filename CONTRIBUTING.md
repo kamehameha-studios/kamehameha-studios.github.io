@@ -4,7 +4,7 @@
 
 The following is a set of guidelines for contributing to Kamehameha Studios, which are hosted in the [Kamehameha Studios Orginization](https://github.com/kamehameha-studios) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
-#### Table Of Contents
+## Table Of Contents
 
 [Code of Conduct](#code-of-conduct)
 
