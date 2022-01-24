@@ -16,22 +16,24 @@
         background: green;
       }
       .menu {
-        margin-left: 40px;
+        margin-right: 40px;
       }
     </style>
     <script>
       function WriteCookie() {
         cookievalue = "kamehameha-studios";
         
-        document.cookie = name = "cookie"; content = "none"; domain = "kamehameha-studios.github.io"; path = "/"; expires = "When browsing sessions ends";;
-        document.cookie = name = "wiki"; content = "wiki"; domain = "kamehameha-studios.githuub.io"; path = "/"; expires = "When browsing session ends";;
+        document.cookie = name = "Cookies"; content = "none"; domain = "kamehameha-studios.github.io"; path = "/"; expires = "Never";;
+        document.cookie = name = "Account Sercurity Cookies"; content = "none"; domain = "kamehameha-studios.github.io"; path = "/"; expires = "When browsing session ends";;
+        document.cookie = name = "wiki"; content = "wiki"; domain = "kamehameha-studios.github.io"; path = "/Cookies"; expires = "When browsing session ends";;
+        document.cookie = name = "guest"; content = "guest of " + cookievalue; domain = "kamehameha-studios.github.io"; path = "/Cookies"; expires = "When browsing session ends";;
       }
-        function alert() {
-          alert("You are logged in as a Guest. Plese Log in or Sign up to view you things.");
-        }
+      function alert() {
+        alert("You are logged in as a Guest." + "Plese Log in or Sign up to view you things.");
+      }
     </script>
   </head>
-  <body lang="en" onload="WriteCookie(); alert()">
+  <body lang="en" onload="WriteCookie(); alert();">
     <div>
       <div>
         <h1 class="bruh position-a">
