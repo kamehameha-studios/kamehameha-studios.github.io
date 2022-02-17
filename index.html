@@ -15,6 +15,9 @@
       .position-b {
         align: center;
       }
+      position-c {
+        align: left;
+      }
       .man {
         background: green;
       }
@@ -35,21 +38,27 @@
     </script>
   </head>
   <body lang="en" onload="WriteCookie(); alert();">
-    <section>
+    <section id="startHere">
       <div>
         <section>
           <div>
-            <header class="bruh position-a man menu">
-              WELCOME TO KAMEHAMEHA STUDIOS!!!
-              <a href="https://kamehameha-studios.github.io/login" target="" class="menu">
-                login
+            <header>
+              <img scr="https://static.toiimg.com/thumb/msid-56833673,width-1200,height-900,resizemode-4/.jpg">
+              <a href="#startHere">
+                Kamehameha Studios
               </a>
-              <a href="https://kamehamea-studios.github.io/help" target="" class="man">
+              <a href="https://kamehamea-studios.github.io/help" target="" class="position-c">
                 help
               </a>
-              <img scr="https://images.macrumors.com/t/n4CqVR2eujJL-GkUPhv1oao_PmI=/1600x/article-new/2019/04/guest-user-250x250.jpg"
+              <a href="https://kamehameha-studios.github.io/login" target="" class="position-c">
+                login
+              </a>
+              <img scr="https://images.macrumors.com/t/n4CqVR2eujJL-GkUPhv1oao_PmI=/1600x/article-new/2019/04/guest-user-250x250.jpg" class="position-c">
             </header>
           </div>
+          <div>
+            <h1 class="position-a bruh">
+              WELCOME TO KAMEHAMEHA STUDIOS!!!
         </section>
         <section>
             <div>
@@ -65,6 +74,7 @@
         with (processingInstance) {
           size(400, 400); 
           frameRate(30);
+          IMAGEMODE(CENTER);
           var O1 = 0;
           var O2 = 0;
           var O3 = 0;
