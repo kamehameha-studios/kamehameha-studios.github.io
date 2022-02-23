@@ -23,8 +23,10 @@ var programCode = function(processingInstance) {
     var x2 = 127;
     var x3 = 80;
     var kamehameha = {
-        h1w1: 10,
-        h1w2: 10
+        h1 = {
+          w1: 10,
+          w2: 10
+        }
     };
     var rectw = 38;
     var ellipsePositions = {
@@ -95,7 +97,7 @@ var programCode = function(processingInstance) {
         line(90, 234, 112, 234);
         fill(0, 118, 252);
         strokeWeight(1);
-        ellipse(139, 279, kamehameha.h1w1, kamehameha.h1w2);
+        ellipse(139, 279, kamehameha.h1.w1, kamehameha.h1.w2);
         ellipse(73, 316, 5, 29);
         ellipse(73, 247, 5, 29);
         ellipse(129, 316, 5, 29);
