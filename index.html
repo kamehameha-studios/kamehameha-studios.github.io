@@ -1,33 +1,20 @@
 <!DOCTYPE html>
   <html>
     <head>
+      <!-- metas -->
       <meta charset="UTF-8">
+      <!-- title -->
       <title>
         kamehamehastudios.org
       </title>
-      <style>
-        .bruh {
-          color: red;
-        }
-        .position-a{
-          text-align: center;
-        }
-        .position-b {
-          text-align: right;
-        }
-        .position-c {
-          text-align: left;
-        }
-        .man {
-          background: green;
-        }
-        .menu {
-          margin-right: 40px;
-        }
-        #startHere{
-          background-color: rgba(255, 0, 0, 0.39);
-        }
-      </style>
+      <!--links-->
+      <link type="text/css" href="index.scss" hreflang="scss" id="scss-a">
+      <link type="text/css" href="reset.scss" hreflang="scss" id="scss-b">
+      <link type="text/js" href="index.html.js" hreflang="js" id="fuctions-animations-prosessing.javascript-index">
+      <link type="text/css" href="index.html.css" hreflang="css" id="css-style-index">
+      <link type="text/sql" href=".home/.other/index.sql" hreflang="sql" id="sqlite-database-index">
+      <link type="text/py" href=".home/.other/.empty/index.py" hreflang="py" id="python-file-index">
+      <link type="text" href="LICENSE.md" hreflang="md" id="MIT-license">
       <script>
         function WriteCookie() {
           cookievalue = "kamehameha-studios";
@@ -47,16 +34,16 @@
             <div>
               <header>
                 <img scr="https://static.toiimg.com/thumb/msid-56833673,width-1200,height-900,resizemode-4/.jpg">
-                <a href="#startHere">
+                <button type="button" href="#startHere" title="Home Button">
                   Kamehameha Studios
-                </a>
-                <button href="https://kamehameha-studios.github.io/login" class="position-c">
+                </button>
+                <button type="button" href="https://kamehameha-studios.github.io/login" class="position-b">
                   login
                 </button>
-                <button href="https://kamehameha-studios.github.io/help" class="position-c">
+                <button type="button" href="https://kamehameha-studios.github.io/help" class="position-b">
                   help
                 </button>
-                <img scr="https://images.macrumors.com/t/n4CqVR2eujJL-GkUPhv1oao_PmI=/1600x/article-new/2019/04/guest-user-250x250.jpg" class="position-c">
+                <img scr="https://images.macrumors.com/t/n4CqVR2eujJL-GkUPhv1oao_PmI=/1600x/article-new/2019/04/guest-user-250x250.jpg" class="a position-b">
               </header>
             </div>
             <div>
@@ -69,6 +56,48 @@
                 <canvas id="myCanvas">
                 </canvas>
               </div>
+          </section>
+          <section>
+            <form class="language-menu">
+              <fieldset id="select-language">
+                <legend>Change your language</legend>
+                <label for="language-selector" class="visually-hidden">
+                  Select your preferred language
+                </label> 
+                <select id="language-selector" name="language">
+                  <option value="en-US">
+                    English (US)
+                  </option>
+                  <option value="de">
+                    Deutsch
+                  </option>
+                  <option value="es">
+                    Español
+                  </option>
+                  <option value="fr">
+                    Français
+                  </option>
+                  <option value="ja">
+                    日本語
+                  </option>
+                  <option value="ko">
+                    한국어
+                  </option>
+                  <option value="pt-BR">
+                    Português (do&nbsp;Brasil)
+                  </option>
+                  <option value="ru">
+                    Русский
+                  </option>
+                  <option value="zh-CN">
+                    中文 (简体)
+                  </option>
+                </select> 
+                <button type="submit" class="button minimal">
+                  Change language
+                </button>
+              </fieldset>
+            </form>
           </section>
         </div>
       </section>

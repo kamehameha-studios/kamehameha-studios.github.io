@@ -9,3 +9,4 @@ INSERT INTO users VALUES (
   "Bosco", 
   "opP4^yu86HhjK"
 );
+SELECT * FROM user;

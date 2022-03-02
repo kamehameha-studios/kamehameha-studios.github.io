@@ -10,9 +10,15 @@
 .position-c {
   text-align: left;
 }
+.a{
+  visibility: visible;
+}
 .man {
   background: green;
 }
 .menu {
   margin-right: 40px;
+}
+#startHere{
+  background-color: rgba(255, 0, 0, 0.39);
 }

@@ -9,20 +9,11 @@ The following is a set of guidelines for contributing to Kamehameha Studios, whi
 [Code of Conduct](#code-of-conduct)
 
 [I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
-
-
-
 [How Can I Contribute?](#how-can-i-contribute)
   * [Reporting Bugs](#reporting-bugs)
   * [Suggesting Enhancements](#suggesting-enhancements)
   * [Your First Code Contribution](#your-first-code-contribution)
   * [Pull Requests](#pull-requests)
-
-[Styleguides](#styleguides)
-  * [Git Commit Messages](#git-commit-messages)
-
-[Additional Notes](#additional-notes)
-  * [Issue and Pull Request Labels](#issue-and-pull-request-labels)
 
 ## Code of Conduct
 
@@ -42,9 +33,9 @@ We have an official message board with a detailed FAQ and where the community ch
 
 ### Reporting Bugs
 
-This section guides you through submitting a bug report for Atom. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior :computer: :computer:, and find related reports :mag_right:.
+This section guides you through submitting a bug report for the Studios. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior :computer: :computer:, and find related reports :mag_right:.
 
-Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](https://github.com/kamehameha-studios/kamehameha-studios.github.io/tree/main/.github/ISSUE_TEMPLATE/bug_report.md), the information it asks for helps us resolve issues faster.
+Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](https://github.com/kamehameha-studios/kamehameha-studios.github.io/tree/main/.github/ISSUE_TEMPLATE/bug_report.md)(if there is any, since new repos may not have them), the information it asks for helps us resolve issues faster.
 
 > **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
@@ -65,7 +56,6 @@ Explain the problem and include additional details to help maintainers reproduce
 * **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
 * **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior.
 * **Explain which behavior you expected to see instead and why.**
-* **Include screenshots and animated GIFs** which show you following the described steps and clearly demonstrate the problem. If you use the keyboard while following the steps, **record the GIF with the [Keybinding Resolver](https://github.com/atom/keybinding-resolver) shown**. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
 * **If you're reporting that the Studios' website crashed**, include a crash report with a stack trace from the operating system. On macOS, the crash report will be available in `Console.app` under "Diagnostic and usage information" > "User diagnostic reports". Include the crash report in the issue in a [code block](https://help.github.com/articles/markdown-basics/#multiple-lines), a [file attachment](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests/), or put it in a [gist](https://gist.github.com/) and provide link to that gist.
 * **If the problem wasn't triggered by a specific action**, describe what you were doing before the problem happened and share more information using the guidelines below.
 
@@ -127,63 +117,4 @@ Please follow these steps to have your contribution considered by the maintainer
 
 While the prerequisites above must be satisfied prior to having your pull request reviewed, the reviewer(s) may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted.
 
-## Styleguides
 
-### Git Commit Messages
-
-* Use the present tense ("Add feature" not "Added feature")
-* Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
-* Limit the first line to 72 characters or less
-* Reference issues and pull requests liberally after the first line
-* When only changing documentation, include `[ci skip]` in the commit title
-* Consider starting the commit message with an applicable emoji:
-    * :art: `:art:` when improving the format/structure of the code
-    * :memo: `:memo:` when writing docs
-    * :penguin: `:penguin:` when fixing something on Linux
-    * :apple: `:apple:` when fixing something on macOS
-    * :checkered_flag: `:checkered_flag:` when fixing something on Windows
-    * :bug: `:bug:` when fixing a bug
-    * :fire: `:fire:` when removing code or files
-    * :lock: `:lock:` when dealing with security
-    * :arrow_up: `:arrow_up:` when upgrading dependencies
-    * :arrow_down: `:arrow_down:` when downgrading dependencies
-
-## Additional Notes
-
-### Issue and Pull Request Labels
-
-This section lists the labels we use to help us track and manage issues and pull requests. All labels are used across all of the Studios' repositories.
-[GitHub search](https://help.github.com/articles/searching-issues/) makes it easy to use labels for finding groups of issues or pull requests you're interested in. We  encourage you to read about [other search filters](https://help.github.com/articles/searching-issues/) which will help you write more focused queries.
-
-The labels are loosely grouped by their purpose, but it's not required that every issue has a label from every group or that an issue can't have more than one label from the same group.
-
-Please open an issue on [kamehameha-studios/kamehameha-studios.github.io](https://github.com/kamehameha-studios/kamehameha-studios.github.io) if you have suggestions for new labels, and if you notice some labels are missing on some repositories, then please open an issue on that repository.
-
-#### Type of Issue and Issue State
-
-| Label name | Description |
-| --- | --- |
-| `enhancement` |  Feature requests. |
-| `bug` | Confirmed bugs or reports that are very likely to be bugs. |
-| `question` |  Questions more than bug reports or feature requests (e.g. how do I do X). |
-| `feedback` |  General feedback more than bug reports or feature requests. |
-| `help-wanted` | The Studios would appreciate help from the community in resolving these issues. |
-| `beginner` |  Less complex issues which would be good first issues to work on for users who want to contribute to Kamehameha Studios. |
-| `more-information-needed` |  More information needs to be collected about these problems or feature requests (e.g. steps to reproduce). |
-| `needs-reproduction` |  Likely bugs, but haven't been reliably reproduced. |
-| `blocked` |  Issues blocked on other issues. |
-| `duplicate` |  Issues which are duplicates of other issues, i.e. they have been reported before. |
-| `invalid` |  Issues which aren't valid (e.g. user errors). |
-| `wrong-repo` |  Issues reported on the wrong repository. |
-
-
-
-#### Pull Request Labels
-
-| Label name |  Description
-| --- | --- |
-| `work-in-progress` |  Pull requests which are still being worked on, more changes will follow. |
-| `needs-review` |  Pull requests which need code review, and approval from adimins. |
-| `under-review` |  Pull requests being reviewed by admins. |
-| `requires-changes` |  Pull requests which need to be updated based on review comments and then reviewed again. |
-| `needs-testing` |  Pull requests which need manual testing. |
