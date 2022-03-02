@@ -42,18 +42,20 @@
         }
       </style>
       <script>
-        function WriteCookie() {
-          cookievalue = "kamehameha-studios";
-          
-          document.cookie = name = "wiki"; content = "none"; domain = "kamehameha-studios.github.io"; path = "/"; expires = "When browsing session ends";;
-          document.cookie = name = "guest"; content = "guest of " + cookievalue; domain = "kamehameha-studios.github.io"; path = "/"; expires = "When browsing session ends";;
-        };
-        function alert() {
-          alert("You are logged in as a Guest." + "Please Log in or Sign up to view you things.");
-        };
+        var functionA = function() {
+          function WriteCookie(name, content, domain, path, expires) {
+          cookievalue = this.cookievalue;
+          document.cookie = name = this.name; content = this.content; domain = this.domain; path = this.path; expires = this.expires;;
+          };
+          var alertThem = function(message) {
+            alert(this.message);
+          };
+          WriteCookie("guest", "none", "kamehameha-studios.github.io", "/", "When browsing session ends");
+          alertThem("You are logged in as a Guest. Please Log in or Sign up to view you things.");
+        };       
       </script>
     </head>
-    <body lang="en" onload="WriteCookie(); alert();">
+    <body lang="en" onload="functionA()">
       <section id="startHere">
         <div>
           <section>
