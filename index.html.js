@@ -8,6 +8,19 @@ var functionA = function() {
   };
   WriteCookie("guest", "none", "kamehameha-studios.github.io", "/", "When browsing session ends");
   alertThem("You are logged in as a Guest. Please Log in or Sign up to view you things.");
+};
+var lang = {
+  english: document.getElementById("lang-a"),
+  deutsch: document.getElementById("lang-b"),
+  spanish: document.getElementById("lang-c"),
+  french: document.getElementById("lang-d"),
+  japenese: document.getElementById("lang-e"),
+  portegeese: document.getElementById("lang-f"),
+  undefined: document.getElementById("lang-h"),
+  chinese: {
+    simplified: document.getElementById("lang-i"),
+    tranditional: document.getElementById("lang-j")
+  }
 };       
 var programCode = function(processingInstance) {
   with (processingInstance) {

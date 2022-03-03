@@ -41,6 +41,7 @@
           background-color: rgba(255, 0, 0, 0.39);
         }
       </style>
+      <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script>
       <script>
         var functionA = function() {
           function WriteCookie(name, content, domain, path, expires) {
@@ -62,14 +63,20 @@
             <div>
               <header>
                 <img scr="https://static.toiimg.com/thumb/msid-56833673,width-1200,height-900,resizemode-4/.jpg">
-                <button type="button" href="#startHere" title="Home Button">
-                  Kamehameha Studios
+                <button type="button" title="Home Button">
+                  <a href="#startHere">
+                    Kamehameha Studios
+                  </a>
                 </button>
-                <button type="button" href="https://kamehameha-studios.github.io/login" class="position-b">
-                  login
+                <button type="button" class="position-b">
+                  <a href="https://kamehameha-studios.github.io/login">
+                    login
+                  </a>                
                 </button>
                 <button type="button" href="https://kamehameha-studios.github.io/help" class="position-b">
-                  help
+                  <a href="https://kamehameha-studios.github.io/help">
+                    help
+                  </a>
                 </button>
                 <img scr="https://images.macrumors.com/t/n4CqVR2eujJL-GkUPhv1oao_PmI=/1600x/article-new/2019/04/guest-user-250x250.jpg" class="a position-b">
               </header>
@@ -93,32 +100,35 @@
                   Select your preferred language
                 </label> 
                 <select id="language-selector" name="language">
-                  <option value="en-US">
+                  <option value="en-US" id="lang-a">
                     English (US)
                   </option>
-                  <option value="de">
+                  <option value="de" id="lang-b">
                     Deutsch
                   </option>
-                  <option value="es">
+                  <option value="es" id="lang-c">
                     Español
                   </option>
-                  <option value="fr">
+                  <option value="fr" id="lang-d">
                     Français
                   </option>
-                  <option value="ja">
+                  <option value="ja" id="lang-e">
                     日本語
                   </option>
-                  <option value="ko">
+                  <option value="ko" id="lang-f">
                     한국어
                   </option>
-                  <option value="pt-BR">
+                  <option value="pt-BR" id="lang-g">
                     Português (do&nbsp;Brasil)
                   </option>
-                  <option value="ru">
+                  <option value="ru" id="lang-h">
                     Русский
                   </option>
-                  <option value="zh-CN">
+                  <option value="zh-CN" id="lang-i">
                     中文 (简体)
+                  </option>
+                  <option value="zh-TW" id="lang-j">
+                    中文（台灣）
                   </option>
                 </select> 
                 <button type="submit" class="button minimal">
@@ -129,6 +139,21 @@
           </section>
         </div>
       </section>
+      <script>
+        var lang = {
+          english: document.getElementById("lang-a"),
+          deutsch: document.getElementById("lang-b"),
+          spanish: document.getElementById("lang-c"),
+          french: document.getElementById("lang-d"),
+          japenese: document.getElementById("lang-e"),
+          portegeese: document.getElementById("lang-f"),
+          undefined: document.getElementById("lang-h"),
+          chinese: {
+            simplified: document.getElementById("lang-i"),
+            tranditional: document.getElementById("lang-j")
+          }
+        };
+      </script>
       <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
       <script class="position-a">
         var programCode = function(processingInstance) {
