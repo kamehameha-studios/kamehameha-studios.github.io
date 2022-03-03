@@ -1,12 +1,12 @@
 var functionA = function() {
-  function WriteCookie(name, content, domain, path, expires) {
+  function WriteCookie(name, content, domain, path, sent_for,expires) {
   cookievalue = this.cookievalue;
-  document.cookie = name = this.name; content = this.content; domain = this.domain; path = this.path; expires = this.expires;;
+  document.cookie = name = this.name; content = this.content; domain = this.domain; path = this.path; sent_for = this.sent_for; expires = this.expires;;
   };
   var alertThem = function(message) {
     alert(this.message);
   };
-  WriteCookie("guest", "none", "kamehameha-studios.github.io", "/", "When browsing session ends");
+  WriteCookie("guest", "none", "kamehameha-studios.github.io", "/", "Same-site connections only", "When browsing session ends");
   alertThem("You are logged in as a Guest. Please Log in or Sign up to view you things.");
 };
 var lang = {
