@@ -9,10 +9,10 @@ updates:
     directory: "/.dependabot/git-actions" # Location of package manifests
     schedule:
       interval: "daily"
-    open-pull-request-limit: 100
+    open-pull-requests-limit: 100
     
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/.dependabot/npm/json" # Location of package manifests
     schedule:
       interval: "daily"
-    open-pull-request-limit: 100
+    open-pull-requests-limit: 100
