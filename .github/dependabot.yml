@@ -12,7 +12,7 @@ updates:
     pull-request-limit: 100
     
  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/.dependabot/npm" # Location of package manifests
+    directory: "/.dependabot/npm/json" # Location of package manifests
     schedule:
       interval: "daily"
     pull-request-limit: 100
