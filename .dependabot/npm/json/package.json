@@ -7,7 +7,7 @@
       ".dependabot/npm/json"
     ],
     "dependencies": {
-      "@kamehameha-studios/a-npm-package": "1.0.0"
+      "a-npm-package": "1.0.0"
       "connected-react-router": "^6.9.2",
       "history": "^4.10.1",
       "isomorphic-fetch": "^3.0.0",
@@ -54,7 +54,8 @@
     "peerDependencies": {},
     "scripts": {
       "build": "webpack --config webpack/webpack.config.js -p --display-error-details --progress --optimize-minimize",
-      "dev": "webpack-dev-server --config webpack/webpack.config-dev.js --open"
+      "dev": "webpack-dev-server --config webpack/webpack.config-dev.js --open",
+      "test": "exit 0"
     },
     "repository": {
       "type": "git",
