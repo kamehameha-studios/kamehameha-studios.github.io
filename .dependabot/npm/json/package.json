@@ -6,6 +6,9 @@
     "files": [
       ".dependabot/npm/json"
     ],
+    "packages": {
+        "@kamehameha-studios/a-npm-package": "1.0.0"
+    },
     "dependencies": {
       "connected-react-router": "^6.9.2",
       "history": "^4.10.1",
