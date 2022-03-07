@@ -7,6 +7,7 @@
       ".dependabot/npm/json"
     ],
     "dependencies": {
+      "@kamehameha-studios/a-npm-package": "1.0.0"
       "connected-react-router": "^6.9.2",
       "history": "^4.10.1",
       "isomorphic-fetch": "^3.0.0",
@@ -22,7 +23,7 @@
       "semantic-ui-react": "2.1.2",
       "set-value": ">=4.1.0",
       "styled-components": "^5.3.3"
-      "@kamehameha-studios/a-npm-package": "1.0.0"
+      
     },
     "devDependencies": {
       "babel-core": "^6.26.3",
