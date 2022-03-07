@@ -16,7 +16,7 @@
       "moment": "^2.29.1",
       "react-dom": "^16.13.0",
       "react": "^16.14.0",
-      "react-markdown": "^4.3.1",
+      "react-markdown": "^8.0.0",
       "react-redux": "^7.2.6",
       "react-router-dom": "^6.2.1",
       "redux": "^4.1.2",
