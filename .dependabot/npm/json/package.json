@@ -1,13 +1,13 @@
 {
     "name": "npm1",
-    "description": null,
+    "description": "",
     "version": "0.0.0",
     "main": ".dependabot/npm/main.js",
     "files": [
       ".dependabot/npm/json"
     ],
     "dependencies": {
-      "a-npm-package": "1.0.0"
+      "a-npm-package": "1.0.0",
       "connected-react-router": "^6.9.2",
       "history": "^4.10.1",
       "isomorphic-fetch": "^3.0.0",
