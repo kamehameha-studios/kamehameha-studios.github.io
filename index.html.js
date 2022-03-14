@@ -16,7 +16,7 @@ var lang = {
   french: document.getElementById("lang-d"),
   japenese: document.getElementById("lang-e"),
   portegeese: document.getElementById("lang-f"),
-  undefined: document.getElementById("lang-h"),
+  russian: document.getElementById("lang-h"),
   chinese: {
     simplified: document.getElementById("lang-i"),
     tranditional: document.getElementById("lang-j")
