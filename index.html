@@ -28,9 +28,6 @@
         .position-c {
           text-align: left;
         }
-        .a{
-          visibility: visible;
-        }
         .man {
           background: green;
         }
@@ -43,7 +40,6 @@
       </style>
       <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script>
       <script>
-        var functionA = function() {
           function WriteCookie(name, content, domain, path, sent_for,expires) {
           cookievalue = this.cookievalue;
           document.cookie = name = this.name; content = this.content; domain = this.domain; path = this.path; sent_for = this.sent_for; expires = this.expires;;
@@ -52,17 +48,16 @@
             alert(this.message);
           };
           WriteCookie("guest", "none", "kamehameha-studios.github.io", "/", "Same-site connections only", "When browsing session ends");
-          alertThem("You are logged in as a Guest. Please Log in or Sign up to view you things.");
-        };       
+          alertThem("You are logged in as a Guest. Please Log in or Sign up to view you things.");       
       </script>
     </head>
-    <body lang="en" onload="functionA()">
+    <body lang="en" onload="">
       <section id="startHere">
         <div>
           <section>
             <div>
               <header>
-                <img scr="https://static.toiimg.com/thumb/msid-56833673,width-1200,height-900,resizemode-4/.jpg">
+                <img scr="https://static.toiimg.com/thumb/msid-56833673,width-1200,height-900,resizemode-4/.jpg" class="a">
                 <button type="button" title="Home Button">
                   <a href="#startHere">
                     Kamehameha Studios
@@ -147,7 +142,7 @@
           french: document.getElementById("lang-d"),
           japenese: document.getElementById("lang-e"),
           portegeese: document.getElementById("lang-f"),
-          undefined: document.getElementById("lang-h"),
+          russian: document.getElementById("lang-h"),
           chinese: {
             simplified: document.getElementById("lang-i"),
             tranditional: document.getElementById("lang-j")

@@ -7,11 +7,16 @@
 }
 
 /* Make images easier to work with */
-img {
+img.a {
   max-width: 100%;
   display: block;
+  visibility: visible;
 }
 
+form,
+header {
+  font: 20, Arial;
+}
 
 /* Inherit fonts for inputs and buttons */
 input,
