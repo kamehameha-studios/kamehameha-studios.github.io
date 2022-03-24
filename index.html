@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-  <html>
+<!DOCTYPE html5>
+<html>
     <head>
       <!-- metas -->
       <meta charset="UTF-8">
@@ -47,12 +47,12 @@
           var alertThem = function(message) {
             alert(this.message);
           };
-          WriteCookie("guest", "none", "kamehameha-studios.github.io", "/", "Same-site connections only", "When browsing session ends");
-          alertThem("You are logged in as a Guest. Please Log in or Sign up to view you things.");       
+          
       </script>
     </head>
-    <body lang="en" onload="">
-      <section id="startHere">
+    <body lang="en" onload="WriteCookie('guest', 'none', 'kamehameha-studios.github.io', '/', 'Same-site connections only', 'When browsing session ends');">
+      <section id="startHere" onload="alertThem('You are logged in as a Guest. Please Log in or Sign up to view you things.');       
+">
         <div>
           <section>
             <div>
