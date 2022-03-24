@@ -18,8 +18,8 @@ updates:
     open-pull-requests-limit: 100
     
   - package-ecosystem: "docker"
-      directory: "/.dependabot/docker/dockfile"
-      schedule:
-        interval: "daily"
-      open-pull-requests-limit: 100
+    directory: "/.dependabot/docker/dockfile"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 100
 
