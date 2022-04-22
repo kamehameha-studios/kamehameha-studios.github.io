@@ -7,7 +7,7 @@
       ".dependabot/npm/json"
     ],
     "dependencies": {
-      "a-npm-package": "1.0.0",
+      "@kamehameha-studios/a-npm-package": "1.0.0",
       "node": "17.7.2",
       "connected-react-router": "^6.9.2",
       "history": "^4.10.1",
