@@ -10,19 +10,16 @@ updates:
     schedule:
       interval: "daily"
     open-pull-requests-limit: 100
-    target-branch: "bossOfCode-patch-3"
     
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/.dependabot/npm/json" # Location of package manifests
     schedule:
       interval: "daily"
     open-pull-requests-limit: 100
-    target-branch: "bossOfCode-patch-3"
     
   - package-ecosystem: "docker"
     directory: "/.dependabot/docker/dockfile"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 100
-    target-branch: "bossOfCode-patch-3"
 
