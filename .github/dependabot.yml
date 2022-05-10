@@ -12,6 +12,10 @@ updates:
     open-pull-requests-limit: 100
     assignees:
       - bossOfCode
+    schedule:
+      interval: daily
+      time: ["0:00", "12:15", "15:30"]
+      timezone: "North America/Chicago"
     
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/.dependabot/npm/json" # Location of package manifests
@@ -20,6 +24,10 @@ updates:
     open-pull-requests-limit: 100
     assignees:
       - bossOfCode
+    schedule:
+      interval: daily
+      time: ["0:00", "12:15", "15:30"]
+      timezone: "North America/Chicago"
     
   - package-ecosystem: "docker"
     directory: "/.dependabot/docker/dockfile"
@@ -28,3 +36,7 @@ updates:
     open-pull-requests-limit: 100
     assignees:
       - bossOfCode
+    schedule:
+      interval: daily
+      time: ["0:00", "12:15", "15:30"]
+      timezone: "North America/Chicago"
