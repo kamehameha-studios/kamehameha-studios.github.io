@@ -14,8 +14,8 @@ updates:
       - bossOfCode
     schedule:
       interval: daily
-      time: ["0:00", "12:15", "15:30"]
-      timezone: "North America/Chicago"
+      time: "12:15"
+      timezone: "America/Chicago"
     
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/.dependabot/npm/json" # Location of package manifests
@@ -26,8 +26,8 @@ updates:
       - bossOfCode
     schedule:
       interval: daily
-      time: ["0:00", "12:15", "15:30"]
-      timezone: "North America/Chicago"
+      time: "12:15"
+      timezone: "America/Chicago"
     
   - package-ecosystem: "docker"
     directory: "/.dependabot/docker/dockfile"
@@ -38,5 +38,5 @@ updates:
       - bossOfCode
     schedule:
       interval: daily
-      time: ["0:00", "12:15", "15:30"]
-      timezone: "North America/Chicago"
+      time: "12:15"
+      timezone: "America/Chicago"
