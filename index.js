@@ -1,27 +1,24 @@
-var functionA = function() {
-  function WriteCookie(name, content, domain, path, sent_for,expires) {
+function WriteCookie(name, content, domain, path, sent_for,expires) {
   cookievalue = this.cookievalue;
-  document.cookie = name = this.name; content = this.content; domain = this.domain; path = this.path; sent_for = this.sent_for; expires = this.expires;;
-  };
-  var alertThem = function(message) {
-    alert(this.message);
-  };
-  WriteCookie("guest", "none", "kamehameha-studios.github.io", "/", "Same-site connections only", "When browsing session ends");
-  alertThem("You are logged in as a Guest. Please Log in or Sign up to view you things.");
+  var cookie = document.cookie = name = this.name; content = this.content; domain = this.domain; path = this.path; sent_for = this.sent_for; expires = this.expires;;
+  return cookie;
+  return cookievalue;
 };
-var lang = {
-  english: document.getElementById("lang-a"),
-  deutsch: document.getElementById("lang-b"),
-  spanish: document.getElementById("lang-c"),
-  french: document.getElementById("lang-d"),
-  japenese: document.getElementById("lang-e"),
-  portegeese: document.getElementById("lang-f"),
-  russian: document.getElementById("lang-h"),
-  chinese: {
-    simplified: document.getElementById("lang-i"),
-    tranditional: document.getElementById("lang-j")
+var alertThem = function(message) {
+  var message1 = alert(this.message);
+  return message1;
+};
+var issue_div = document.createElement("div");
+issue_div.innerHTML = "<p id='issue_p' style='text-align: center'> If you see an issue or want to give suggestions, go here to our <a href='https://github.com/kamehameha-studios/Issues'>Official Issue Center</a>."
+issue_div.appendChild(document.getElementById("#startHere"));
+var langchanger = document.getElementById("#lang-changer");
+var langChange = function() {
+  var body = document.getElementById("#body");
+  var languageselector = document.getElementById("#language-selector").value;
+  if (languageselector === english) {
+    body.innerHTML = "";
   }
-};       
+}       
 var programCode = function(processingInstance) {
   with (processingInstance) {
     size(400, 400); 
