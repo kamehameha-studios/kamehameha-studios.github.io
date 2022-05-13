@@ -10,8 +10,8 @@
       <!--links-->
       <link type="text/css" href="index.scss" hreflang="scss" id="scss-a">
       <link type="text/css" href="reset.scss" hreflang="scss" id="scss-b">
-      <link type="text/js" href="index.html.js" hreflang="js" id="fuctions-animations-prosessing.javascript-index">
-      <link type="text/css" href="index.html.css" hreflang="css" id="css-style-index">
+      <link type="text/js" href="index.js" hreflang="js" id="fuctions-animations-prosessing.javascript-index">
+      <link type="text/css" href="index.css" hreflang="css" id="css-style-index">
       <link type="text/sql" href=".home/.other/index.sql" hreflang="sql" id="sqlite-database-index">
       <link type="text/py" href=".home/.other/.empty/index.py" hreflang="py" id="python-file-index">
       <link type="text" href="LICENSE.md" hreflang="md" id="MIT-license">
@@ -41,18 +41,19 @@
       <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script>
       <script>
           function WriteCookie(name, content, domain, path, sent_for,expires) {
-          cookievalue = this.cookievalue;
-          document.cookie = name = this.name; content = this.content; domain = this.domain; path = this.path; sent_for = this.sent_for; expires = this.expires;;
+            cookievalue = this.cookievalue;
+            var cookie = document.cookie = name = this.name; content = this.content; domain = this.domain; path = this.path; sent_for = this.sent_for; expires = this.expires;;
+            return cookie;
+            return cookievalue;
           };
           var alertThem = function(message) {
-            alert(this.message);
+            var message1 = alert(this.message);
+            return message1;
           };
-          
       </script>
     </head>
-    <body lang="en" onload="WriteCookie('guest', 'none', 'kamehameha-studios.github.io', '/', 'Same-site connections only', 'When browsing session ends');">
-      <section id="startHere" onload="alertThem('You are logged in as a Guest. Please Log in or Sign up to view you things.');       
-">
+    <body id="body" onload="WriteCookie('guest', 'none', 'kamehameha-studios.github.io', '/', 'Same-site connections only', 'When browsing session ends');">
+      <section id="startHere" onload="alertThem('You are logged in as a Guest. Please Log in or Sign up to view you things.');">
         <div>
           <section>
             <div>
@@ -127,28 +128,27 @@
                     中文（台灣）
                   </option>
                 </select> 
-                <button type="submit" class="button minimal">
+                <button type="submit" class="button minimal" id="lang-changer">
                   Change language
                 </button>
               </fieldset>
             </form>
           </section>
         </div>
+        <br>
       </section>
       <script>
-        var lang = {
-          english: document.getElementById("lang-a"),
-          deutsch: document.getElementById("lang-b"),
-          spanish: document.getElementById("lang-c"),
-          french: document.getElementById("lang-d"),
-          japenese: document.getElementById("lang-e"),
-          portegeese: document.getElementById("lang-f"),
-          russian: document.getElementById("lang-h"),
-          chinese: {
-            simplified: document.getElementById("lang-i"),
-            tranditional: document.getElementById("lang-j")
+        var issue_div = document.createElement("div");
+        issue_div.innerHTML = "<p id='issue_p' style='text-align: center'> If you see an issue or want to give suggestions, go here to our <a href='https://github.com/kamehameha-studios/Issues'>Official Issue Center</a>."
+        issue_div.appendChild(document.getElementById("#startHere"));
+        var langchanger = document.getElementById("#lang-changer");
+        var langChange = function() {
+          var body = document.getElementById("#body");
+          var languageselector = document.getElementById("#language-selector").value;
+          if (languageselector === english) {
+            body.innerHTML = "";
           }
-        };
+        }
       </script>
       <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
       <script class="position-a">
