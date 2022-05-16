@@ -15,9 +15,6 @@ var langchanger = document.getElementById("#lang-changer");
 var langChange = function() {
   var body = document.getElementById("#body");
   var languageselector = document.getElementById("#language-selector").value;
-  if (languageselector === english) {
-    body.innerHTML = "";
-  }
 }       
 var programCode = function(processingInstance) {
   with (processingInstance) {
@@ -129,14 +126,14 @@ var programCode = function(processingInstance) {
       kamehameha.h1w2 += 0;
       O3 += 0.000001;
       if (O3 === 0) {
-          print("Did you forget to turn on the animation?");
+          return alert("Did you forget to turn on the animation?");;
       }
       if (O3 === 400) {
-          println("Watch out!!!");
+          return alert("Watch out!!!");
       }
       if (O3 === 800) {
-          println("Goku Died!!!");
-          println("Freiza wins...");
+          return alert("Goku Died!!!");
+          return alert("Freiza wins...");
       }
       drawLava();
       drawGoku();
