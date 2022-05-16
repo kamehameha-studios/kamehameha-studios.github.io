@@ -8,9 +8,6 @@ var alertThem = function(message) {
   var message1 = alert(this.message);
   return message1;
 };
-var issue_div = document.createElement("div");
-issue_div.innerHTML = "<p id='issue_p' style='text-align: center'> If you see an issue or want to give suggestions, go here to our <a href='https://github.com/kamehameha-studios/Issues'>Official Issue Center</a>."
-issue_div.appendChild(document.getElementById("#startHere"));
 var langchanger = document.getElementById("#lang-changer");
 var langChange = function() {
   var body = document.getElementById("#body");
