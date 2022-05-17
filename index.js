@@ -9,8 +9,8 @@ var alertThem = function(message) {
   return message1;
 };
 
-const DOM = document.querySelector('html');
-const langButton = document.querySelector('#lang-changer');
+var DOM = document.querySelector('html');
+var langButton = document.querySelector('#lang-changer');
 // At this point, the JS requires a hard-coded translation in order to render on the DOM
 //Or a language API or tool to translate
 function changeLanguage(language){
@@ -149,14 +149,14 @@ var programCode = function(processingInstance) {
       kamehameha.h1w2 += 0;
       O3 += 0.000001;
       if (O3 === 0) {
-          print("Did you forget to turn on the animation?");
+          return alert("Did you forget to turn on the animation?");;
       }
       if (O3 === 400) {
-          println("Watch out!!!");
+          return alert("Watch out!!!");
       }
       if (O3 === 800) {
-          println("Goku Died!!!");
-          println("Freiza wins...");
+          return alert("Goku Died!!!");
+          return alert("Freiza wins...");
       }
       drawLava();
       drawGoku();
