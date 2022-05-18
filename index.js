@@ -8,11 +8,37 @@ var alertThem = function(message) {
   var message1 = alert(this.message);
   return message1;
 };
-var langchanger = document.getElementById("#lang-changer");
-var langChange = function() {
-  var body = document.getElementById("#body");
-  var languageselector = document.getElementById("#language-selector").value;
-}       
+
+var DOM = document.querySelector('html');
+var langButton = document.querySelector('#lang-changer');
+// At this point, the JS requires a hard-coded translation in order to render on the DOM
+//Or a language API or tool to translate
+function changeLanguage(language){
+  if(language === "en"){
+    DOM.documentElement.setAttribute("lang", language);
+  }else if(language === "de"){
+    DOM.documentElement.setAttribute("lang", language);
+  }else if(language === "es"){
+    DOM.documentElement.setAttribute("lang", language);
+  }else if(language === "fr"){
+    DOM.documentElement.setAttribute("lang", language);
+  }else if(language === "ja"){
+    DOM.documentElement.setAttribute("lang", language);
+  }else if(language === "ko"){
+    DOM.documentElement.setAttribute("lang", language);
+  }else if(language === "pt-BR"){
+    DOM.documentElement.setAttribute("lang", language);
+  }else if(language === "ru"){
+    DOM.documentElement.setAttribute("lang", language);
+  }else if(language === "zh-CN"){
+    DOM.documentElement.setAttribute("lang", language);
+  }else if(language === "zh-TW"){
+    DOM.documentElement.setAttribute("lang", language);
+  }
+}
+
+langButton.addEventListener('change', changeLanguage);
+
 var programCode = function(processingInstance) {
   with (processingInstance) {
     size(400, 400); 
