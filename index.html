@@ -140,14 +140,35 @@
           <p id="issue_p" style="text-align: center"> If you see an issue or want to give suggestions, go here to our <a href="https://github.com/kamehameha-studios/Issues">Official Issue Center</a>.
       </section>
       <script>
-        var langchanger = document.getElementById("#lang-changer");
-        var langChange = function() {
-          var body = document.getElementById("#body");
-          var languageselector = document.getElementById("#language-selector").value;
-          if (languageselector === "english") {
-            body.innerHTML = "";
+        var DOM = document.querySelector('html');
+        var langButton = document.querySelector('#lang-changer');
+        // At this point, the JS requires a hard-coded translation in order to render on the DOM
+        //Or a language API or tool to translate
+        function changeLanguage(language){
+          if(language === "en"){
+            DOM.documentElement.setAttribute("lang", language);
+          }else if(language === "de"){
+            DOM.documentElement.setAttribute("lang", language);
+          }else if(language === "es"){
+            DOM.documentElement.setAttribute("lang", language);
+          }else if(language === "fr"){
+            DOM.documentElement.setAttribute("lang", language);
+          }else if(language === "ja"){
+            DOM.documentElement.setAttribute("lang", language);
+          }else if(language === "ko"){
+            DOM.documentElement.setAttribute("lang", language);
+          }else if(language === "pt-BR"){
+            DOM.documentElement.setAttribute("lang", language);
+          }else if(language === "ru"){
+            DOM.documentElement.setAttribute("lang", language);
+          }else if(language === "zh-CN"){
+            DOM.documentElement.setAttribute("lang", language);
+          }else if(language === "zh-TW"){
+            DOM.documentElement.setAttribute("lang", language);
           }
         }
+
+        langButton.addEventListener('change', changeLanguage);
       </script>
       <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
       <script class="position-a">
