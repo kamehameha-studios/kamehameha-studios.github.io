@@ -9,6 +9,7 @@ on:
   workflow_dispatch:
   schedule:
   - cron: '30 11 * * 3'
+  repository_dispatch:
 
 jobs:
   stale:
