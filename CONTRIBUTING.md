@@ -47,7 +47,7 @@ Before creating bug reports, please check [this list](#before-submitting-a-bug-r
 
 #### How Do I Submit A (Good) Bug Report?
 
-Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined which repository your bug is related to, create an issue on that repository and provide the following information by filling in [the template](https://github.com/kamehameha-studios/kamehameha-studios.github.io/tree/main/.github/ISSUE_TEMPLATE) or [the form](/kamehameha-studios/issues).
+Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined which repository your bug is related to, create an issue on that repository and provide the following information by filling in [the template](https://github.com/kamehameha-studios/kamehameha-studios.github.io/tree/main/.github/ISSUE_TEMPLATE) or [the form](/kamehameha-studios/Issues/tree/main/.github).
 
 Explain the problem and include additional details to help maintainers reproduce the problem:
 
