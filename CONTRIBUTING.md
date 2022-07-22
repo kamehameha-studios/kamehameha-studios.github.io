@@ -8,7 +8,7 @@ The following is a set of guidelines for contributing to Kamehameha Studios, whi
 
 [Code of Conduct](#code-of-conduct)
 
-[I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
+[I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question) <br>
 [How Can I Contribute?](#how-can-i-contribute)
   * [Reporting Bugs](#reporting-bugs)
   * [Suggesting Enhancements](#suggesting-enhancements)
@@ -47,7 +47,7 @@ Before creating bug reports, please check [this list](#before-submitting-a-bug-r
 
 #### How Do I Submit A (Good) Bug Report?
 
-Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined which repository your bug is related to, create an issue on that repository and provide the following information by filling in [the template](https://github.com/kamehameha-studios/kamehameha-studios.github.io/tree/main/.github/ISSUE_TEMPLATE).
+Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined which repository your bug is related to, create an issue on that repository and provide the following information by filling in [the template](https://github.com/kamehameha-studios/kamehameha-studios.github.io/tree/main/.github/ISSUE_TEMPLATE) or [the form](/kamehameha-studios/issues).
 
 Explain the problem and include additional details to help maintainers reproduce the problem:
 
