@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      .position-a{
+        text-align: center;
+      }
+      .position-b {
+        text-align: right;
+      }
+      .position-c {
+        text-align: left;
+      }
+      .a{
+        visibility: visible;
+      }
+    </style>
+    <script>
+      function WriteCookie(name, content, domain, path, sent_for,expires) {
+      cookievalue = this.cookievalue;
+      document.cookie = name = this.name; content = this.content; domain = this.domain; path = this.path; sent_for = this.sent_for; expires = this.expires;;
+      };
+    </script>
+  </head>
+  <body onload="WriteCookie('a', 'none', 'kamehameha-studios.github.io', '/', '', '')">
+    <section id="startHere">
+      <div>
+        <div>
+          <header>
+            <img scr="https://static.toiimg.com/thumb/msid-56833673,width-1200,height-900,resizemode-4/.jpg">
+            <button type="button" title="Home Button">
+              <a href="https://kamehameha-studios.github.io">
+                Kamehameha Studios
+              </a>
+            </button>
+            <button type="button" class="position-b">
+              <a href="https://kamehameha-studios.github.io/login">
+                login
+              </a>                
+            </button>
+            <button type="button" href="https://kamehameha-studios.github.io/help" class="position-b">
+              <a href="https://kamehameha-studios.github.io/help">
+                help
+              </a>
+            </button>
+            <img scr="https://images.macrumors.com/t/n4CqVR2eujJL-GkUPhv1oao_PmI=/1600x/article-new/2019/04/guest-user-250x250.jpg" class="a position-b">
+          </header>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
